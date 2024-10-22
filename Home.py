@@ -49,10 +49,8 @@ province_value = cat_to_num['province_name'][selected_province]
 location_value = cat_to_num['location'][selected_location]
 
 
-predict_prices = st.button('Predict Price')
-
-# user_input = [property_value, location_value, city_value, province_value, selected_baths, selected_area, purpose_value, selected_bedrooms]
-user_input = [2.857516, 2.888843, 2.867222, 2.848268, 7, 0.001062, 2.867222, 6]
+user_input = [property_value, location_value, city_value, province_value, selected_baths, selected_area, purpose_value, selected_bedrooms]
+# user_input = [2.857516, 2.888843, 2.867222, 2.848268, 7, 0.001062, 2.867222, 6]
 
 # scaling test values
 user_input_scaled = scaler.transform([user_input])

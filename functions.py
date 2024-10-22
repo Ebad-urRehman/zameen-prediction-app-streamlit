@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
 
-df = pd.read_csv('Cleaned data zameen.csv')
-df2 = pd.read_csv('numerical_logged.csv')
+df = pd.read_csv('files/csvs/Cleaned data zameen.csv')
+df2 = pd.read_csv('files/csvs/numerical_logged.csv')
 
 def find_distinct_values():
     purpose_distinct_values = df['purpose'].unique()
